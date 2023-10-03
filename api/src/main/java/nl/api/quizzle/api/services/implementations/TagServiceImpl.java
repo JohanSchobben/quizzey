@@ -7,14 +7,14 @@ import org.springframework.stereotype.Service;
 
 import lombok.AllArgsConstructor;
 import nl.api.quizzle.api.models.Tag;
-import nl.api.quizzle.api.repositories.TagRespository;
+import nl.api.quizzle.api.repositories.TagRepository;
 import nl.api.quizzle.api.repositories.projections.TagProjection;
 import nl.api.quizzle.api.services.TagService;
 
 @Service
 @AllArgsConstructor
 public class TagServiceImpl implements TagService {
-    private TagRespository respository;
+    private TagRepository respository;
 
     @Override
     public List<TagProjection> getTags() {

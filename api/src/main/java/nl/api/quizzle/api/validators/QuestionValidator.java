@@ -11,7 +11,6 @@ public class QuestionValidator implements Validator {
 
     @Override
     public boolean supports(Class<?> clazz) {
-        System.out.println("checking");
         return QuestionDto.class.equals(clazz);
     }
 

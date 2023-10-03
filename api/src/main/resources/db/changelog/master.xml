@@ -11,4 +11,5 @@
         
 
         <include file="add-tags-and-questions.xml" relativeToChangelogFile="true" />
+        <include file="add-user.xml" relativeToChangelogFile="true" />
 </databaseChangeLog>
